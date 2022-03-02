@@ -69,11 +69,10 @@ body {
 }
 
 .hero-right {
-    padding: 24px 32px;
     color: #E5E7EB;
     background-color: #6D747D;
-    flex-grow: 1;
     text-align: center;
+    display: flex;
 }
 
 .info-container {
