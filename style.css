@@ -81,6 +81,29 @@ body {
     margin: 16px;
     flex-shrink: 1;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300; /* light */
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    max-width: 500px;
+}
+
+.quote-author {
+    max-width: 500px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    align-self: flex-end;
+}
 }
 
 .footer {
