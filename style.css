@@ -9,7 +9,21 @@ body {
     border: solid red 1px;
 }
 
-.header {
+.section {
+    padding: 50px 75px;
+}
+
+.section.header, .section.hero{
+    background-color: #1F2937;
+}
+
+.section.header {
+    padding-top: 5px;
+}
+
+.section.quote {
+    background-color: #E5E7EB;
+}
     display: flex;
     justify-content: space-between;
     padding: 16px;
@@ -105,10 +119,6 @@ body {
     font-style: normal;
     font-weight: 500;
     align-self: flex-end;
-}
-
-.action.section {
-    margin: 50px 75px;
 }
 
 .action-container {
