@@ -107,10 +107,18 @@ body {
     align-self: flex-end;
 }
 
+.action.section {
+    margin: 50px 75px;
+}
+
 .action-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 25px 0;
 }
 
 .action-left {
@@ -123,6 +131,10 @@ body {
     border-radius: 8px;
     padding: 4px 24px;
     color: #F9FAF8;
+}
+
+.action .sign-up {
+    border: 1px solid #E5E7EB
 }
 
 .footer {
