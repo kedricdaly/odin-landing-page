@@ -104,6 +104,22 @@ body {
     font-weight: 500;
     align-self: flex-end;
 }
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
 }
 
 .footer {
