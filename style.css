@@ -45,13 +45,12 @@ body {
 .hero-container {
     display: flex;
     justify-content: space-between;
-    border: 1px dotted blue;
-    padding: 0 16px;
     background-color: #1F2937;
 }
 
 .hero-left {
-    max-width: 500px;
+    max-width: 400px;
+    flex-shrink: 1;
 }
 
 .hero-text {
@@ -71,6 +70,8 @@ body {
     padding: 24px 32px;
     color: #E5E7EB;
     background-color: #6D747D;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .info-container {
