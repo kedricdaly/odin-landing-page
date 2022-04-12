@@ -41,6 +41,10 @@ body {
     align-items: center;
 }
 
+.header-container a {
+    color: inherit;
+}
+
 .header-right {
     font-size: 18px;
     color: #E5E7EB;
